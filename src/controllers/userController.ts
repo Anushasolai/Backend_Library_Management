@@ -4,9 +4,8 @@ import { User } from "../models/userTable";
 import { Book } from "../models/bookTable";
 import { UserBook } from "../models/userBookTable";
 import bcrypt from "bcryptjs";
-// import jwt from 'jsonwebtoken';
 import { generateToken } from "../middleware/jwt";
-// import 'dotenv/config';
+
 
 //signup
 
